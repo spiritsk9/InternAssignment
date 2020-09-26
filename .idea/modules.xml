@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example-RecyclerSwipeView.iml" filepath="$PROJECT_DIR$/.idea/modules/Example-RecyclerSwipeView.iml" group="RecyclerSwipeView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InternAssignment.iml" filepath="$PROJECT_DIR$/.idea/modules/InternAssignment.iml" group="InternAssignment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InternAssignment-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InternAssignment-app.iml" group="InternAssignment/app" />
       <module fileurl="file://$PROJECT_DIR$/RecyclerSwipeView.iml" filepath="$PROJECT_DIR$/RecyclerSwipeView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerSwipeView-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerSwipeView-app.iml" group="RecyclerSwipeView/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
