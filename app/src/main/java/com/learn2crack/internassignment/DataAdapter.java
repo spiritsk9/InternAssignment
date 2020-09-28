@@ -1,6 +1,7 @@
 package com.learn2crack.recyclerswipeview;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.GridLayoutManager;
@@ -20,6 +21,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     private final ImageClickListener imageListner;
     private ArrayList<String> title;
     private ImageAdapter adapter;
+    Context mContext;
     private ArrayList<Uri> uriList=new ArrayList<>();
 
     public DataAdapter(ArrayList<String> title, MainActivity mainActivity, ImageClickListener listener) {
@@ -45,7 +47,8 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
             }
         });
         viewHolder.recyclerView.setHasFixedSize(true);
-        viewHolder.recyclerView.setLayoutManager(new GridLayoutManager(context, 2));
+
+        viewHolder.recyclerView.setLayoutManager(new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, false));
         adapter = new ImageAdapter(uriList);
         viewHolder.recyclerView.setAdapter(adapter);
     }
